@@ -1,0 +1,164 @@
+@media all and (max-width: 767px){
+    .container{
+        width: 700px;
+    }
+    .slider-active .owl-nav button {
+        top: 44%;
+    }
+    .slider-active .slider-action h1 {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .slider-active .slider-action .critecal::before {
+        left: 356px;
+    }
+    .slider-active .slider-action .critecal::after {
+        left: -134px;
+    }
+    .navigation .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .navigation nav ul {
+        width: 90%;
+        text-align: center;
+    }
+    .we-are {
+        border-top: 1px solid #dedede;
+        position: relative;
+    }
+    .we-are .section-title h1::before {
+        width: 83px;
+    }
+    .we-are .section-title h1::after {
+        width: 82px;
+        left: -140px;
+    }
+    .we-are .section-title span::before {
+        width: 104px;
+        left: 164px;
+    }
+    .we-are .section-title span::after {
+        width: 104px;
+        left: 164px;
+    }
+    .single-servics h5 {
+        line-height: normal;
+    }
+    .different {
+        font-size: 20px;
+        width: 70px;
+        height:70px;
+        line-height: 70px;
+    }
+    .we-are p {
+        margin-top: 25px;
+    }
+    .cta-area p {
+        margin-top: 45px;
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        margin-top: 30px;
+        padding: 10px 29px;
+    }
+    .btn.white {
+        border: 1px solid #000;
+    }
+    br{
+        display: none;
+    }
+    .single-servics p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .single-servics .service-info {
+        margin-left: 10px;
+    }
+    .btn.block {
+        font-size: 11px;
+        width: 60%;
+        line-height: 16px;
+    }
+    .our-freature .our-service {
+        margin-left: 141px;
+    }
+    .our-freature {
+        width: 100%;
+    }
+    .freature-area .our-freature .icon i {
+        font-size: 35px;
+    }
+    .muck-img {
+        width: 80%;
+        margin-right: 80px;
+    }
+    .counter-area .source h5 {
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .col-6 {
+        width: 33.33%;
+    }
+    .company-fact .done h1 {
+        font-size: 25px;
+    }
+    .company-fact .done h1::before {
+        top: 39%;
+        height: 8px;
+        width: 8px;
+        left: 35px;
+    }
+    .company-fact .done h1::after {
+        top: 43%;
+        height: 8px;
+        width: 8px;
+        right: 33px;
+    }
+    .company-fact .done p::before {
+        width: 56px;
+        height: 2px;
+    }
+    .company-fact .done p::after {
+        width: 56px;
+        height: 2px;
+    }
+
+}
+
+
+
+@media all and (max-width: 540px){
+    .container{
+        width: 500px;
+    }
+    ::before{
+        display:none;
+    }
+    ::after{
+        display:none;
+    }
+    .slider-active .slider-action p {
+        font-size: 12px;
+    }
+    .slider-active .slider-action h1 {
+        font-size: 24px;
+    }
+    .slider-active .slider-action .line {
+        padding: 5px;
+    }
+    .slider-action .critecal p {
+        font-size: 25px;
+        margin:0px;
+    }
+    .slider-action .critecal img {
+        display: none;
+    }
+    .navigation nav ul {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
